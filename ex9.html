@@ -94,26 +94,36 @@
             <td><img src="https://tse3.mm.bing.net/th?id=OIP.s3IqxnvKmSV8QJcAvupC7gHaH5&pid=Api&P=0&h=180" alt=""></td>
         </tr>
     </table>
-    <h2>Cat Form</h2>
-
+    <h3>Cat Form</h3>
     <form>
-        <hr> 
-        <p>Is your cat an indoor or outdoor cat?</p>
-        <input type="radio" id="indoor" name="cat_type" value="indoor" checked>Indoor
-        <input type="radio" id="outdoor" name="cat_type" value="outdoor">Outdoor
-        <hr> 
-        <p>What's your cat's personality?</p>
-        <input type="checkbox" id="loving" name="personality" value="loving" checked>Loving
-        <input type="checkbox" id="lazy" name="personality" value="lazy">Lazy
-        <input type="checkbox" id="energetic" name="personality" value="energetic">Energetic
-        <hr> 
-        <input type="text" name="cat_photo" placeholder="cat photo URL">
+        <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label>
+                <input type="radio" name="cat_type" value="indoor" checked> Indoor
+            </label>
+            <label>
+                <input type="radio" name="cat_type" value="outdoor"> Outdoor
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <label>
+                <input type="checkbox" name="personality" value="loving" checked> Loving
+            </label>
+            <label>
+                <input type="checkbox" name="personality" value="lazy"> Lazy
+            </label>
+            <label>
+                <input type="checkbox" name="personality" value="energetic"> Energetic
+            </label>
+        </fieldset>
+
+        <input type="text" placeholder="cat photo URL">
         <button type="submit">Submit</button>
     </form>
-
-    <br>
-    <p>No Copyright - <a href="https://rikkei.edu.vn">rikkei.edu.vn</a></p>
-
+    <p>No Copyright - <a href="https://rikkei.edu.vn" target="_blank">rikkei.edu.vn</a></p>
+</body>
 </body>
 
 </html>
